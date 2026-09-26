@@ -1,0 +1,44 @@
+{
+  "name": "@contentforge-press/sellermath-fee-engine",
+  "version": "1.0.0",
+  "description": "Pure, dependency-free fee & profit calculations for online marketplace sellers (Amazon, eBay, Etsy, Shopify, Walmart, Stripe, PayPal, sales tax). US 2026 rates.",
+  "type": "module",
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "require": "./src/index.cjs",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "amazon-fba",
+    "ebay-fees",
+    "etsy-fees",
+    "shopify",
+    "walmart-marketplace",
+    "stripe",
+    "paypal",
+    "sales-tax",
+    "profit-calculator",
+    "ecommerce",
+    "marketplace-fees"
+  ],
+  "author": "SellerMath",
+  "license": "MIT",
+  "homepage": "https://dytsk9wrfv.page.coze.site",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/contentforge-press/sellermath-fee-engine.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
